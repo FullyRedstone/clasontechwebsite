@@ -1,4 +1,4 @@
-# clasontechwebsite
+# Clason Tech Website
 ## Developed by *Jonathyn Stiverson*
 ### Created with HTML and CSS
 #### In the code for the website there will be comments 
