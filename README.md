@@ -15,20 +15,14 @@
 ### Vera Clark
 #### For editing the images to make them transperant
 ### Wix.com
-#### For kindley providing the logo
-#### And also providing a great place
-#### for creating a rough sketch of 
+#### For kindley providing the logo and also providing 
+#### a great place for creating a rough sketch of 
 #### any websites being created.
 ### w3schools.com
-#### For providing documention and 
-#### tutorials for how to do 
-#### applications in html, css, and
-#### javascript.  This is a great 
+#### For providing documention and tutorials for how to do 
+#### applications in html, css, and javascript.  This is a great 
 #### source for any web developer.
 ### Ruthane Grimsley
-#### For providing support and 
-#### being a mentor in building
-#### websites and being a owner
-#### in buisness.  Also tips
-#### in freelancing web 
-#### design.
+#### For providing support and being a mentor in building
+#### websites and being a owner in buisness.  Also for tips
+#### in freelancing web design.
