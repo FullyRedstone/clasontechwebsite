@@ -26,3 +26,24 @@
 #### For providing support and being a mentor in building
 #### websites and being a owner in buisness.  Also for tips
 #### in freelancing web design.
+## Want to see more by FullyRedstone, Jonathyn Stiverson, 
+## and ProgrammingLogic?  (All same person)
+### View the profile of FullyRedstone for GitHub updates
+### Look at the Clason Tech Website for other projects 
+### created.  
+## Want to help in Clason Tech Productions?
+### Send us a email and we may condsider you!
+### Some of the knowlege we are looking for:
+#### Expiernce in programming
+##### Major one is HTML, CSS, and Javascript
+##### Another one that looks great is development
+##### in applications using unity or other 
+##### software development applications.
+##### Languages like C++, Python, Java
+##### and like languages looks great.
+##### If you have any expiernce developing minecraft,
+##### that also looks great.
+##### Some great locations to work for us is the omaha metro 
+##### area.  If you live close to there, you can easily meet 
+##### up with any of our production team for an interview to
+##### get employed.
