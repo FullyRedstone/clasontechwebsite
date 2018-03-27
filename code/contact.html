@@ -1,19 +1,91 @@
 <!DOCTYPE html>
-
+<!--So that way it looks nice-->
 <html>
+    <!--Declaring the head so that way we can put descriptions, metadata, and just declaring variables about the site.-->
     <head>
-    
+        <!--Setting the title in the tab-->
+        <title>Contact | Clason Tech Productions</title>
     </head>
     
+    <!--Showing the part of the file that is on the top and is on every page, the toolbar and logo image-->
     <header>
-    
+        <!--Logo image-->
+        <img src="/images/logo.png" alt="Clason Tech Logo">
+        <!--Toolbar link, also declaring the id for the css-->
+        <ul class="toolbar">
+            <!--The link for each page including the filepath-->
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="project.html">Out Projects</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </header>
     
+    <!--Body for the main content of the website-->
     <body>
-    
+        <!--First section of the main content, ideally for the css-->
+        <div class="sectionOne">
+            <h1>Contact Us</h1>
+            <h3>Have you read through our site and you became intrested in having us design a website or application for you?</h3>
+        </div>
+        
+        <!--Second section of the main content, ideally for the css-->
+        <div class="sectionTwo">
+            <img class="sectionTwoContactImage" src="/images/sectionTwoContactImage.png" alt="To make the site look better.">
+            <h2>Want a website or other application?</h2>
+            <h3>Apply here.</h3>
+            <!--Forum for them to apply-->
+            <form>
+                <ul class="form-style-1">
+                    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+                    <li>
+                        <label>Email <span class="required">*</span></label>
+                        <input type="email" name="field3" class="field-long" />
+                    </li>
+                    <li>
+                        <label>Subject</label>
+                        <select name="field4" class="field-select">
+                        <option value="Website">Advertise</option>
+                        <option value="Application">Partnership</option>
+                        <option value="Minecrtaft Server">General</option>
+                        <option value="Other">General</option>    
+                        </select>
+                    </li>
+                    <li>
+                        <label>Your Message <span class="required">*</span></label>
+                        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit" />
+                    </li>
+                </ul>
+</form>
+        </div>
+        
+        <!--Third section of the main content-->
+        <div class="sectionThree">
+            <h2>What is our mission?</h2>
+            <p>Our goal is to supply good quality website in a reasonable amount of time for a good price.  We know that the customer is always right and will do our best to meet the needs of the customer. You can find more information on the about page.</p>
+            <!--Third image, will filter out when in mobile view with css-->
+            <img src="/images/sectionThree.png">
+        </div>
     </body>
     
+    <!--Section idenifying the footer-->
     <footer>
-    
+        <!--Fourth section for the css, in the footer this time-->
+        <div class="sectionFour">
+            <p>Clason Tech Productions</p>
+        </div>
+        
+        <!--Same as above except fifth section-->
+        <div class="sectionFive">
+            <p>Site hand crafted and coded and maintained by Jonathyn Stiverson.</p>
+        </div>
+        
+        <!--Same as above except sixth section-->
+        <div class="sectionSix">
+            <p>Want sites like this created for you?  Contact us from the contact page!</p>
+        </div>
     </footer>
 </html>
