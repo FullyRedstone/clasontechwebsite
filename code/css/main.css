@@ -79,3 +79,47 @@
     background: #EA7B00;
     color: #fff;
 }
+<!--Toolbar-->
+ul.toolbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.toolbar li {float: left;}
+
+ul.toolbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.toolbar li a:hover:not(.active) {background-color: #111;}
+
+ul.toolbar li a.active {background-color: #4CAF50;}
+
+ul.toolbar li.right {float: right;}
+
+<!--Proptery making it so that there is no white border-->
+body{
+ margin:0;   
+}
+<!--Checking if the screen is smaller than 600px which means this is the css for mobile devices-->
+@media screen and (max-width: 600px){
+    header{
+        ul.toolbar li.right, 
+        ul.toolbar li {float: none;}
+    }
+    .headerImage{
+        width:100%;
+        height:auto;
+    }
+    .sectionOne{
+        
+        
+    }
+}
