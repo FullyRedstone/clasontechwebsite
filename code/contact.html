@@ -35,31 +35,23 @@
             <h2>Want a website or other application?</h2>
             <h3>Apply here.</h3>
             <!--Forum for them to apply-->
-            <form>
-                <ul class="form-style-1">
-                    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
-                    <li>
-                        <label>Email <span class="required">*</span></label>
-                        <input type="email" name="field3" class="field-long" />
-                    </li>
-                    <li>
-                        <label>Subject</label>
-                        <select name="field4" class="field-select">
-                        <option value="Website">Advertise</option>
-                        <option value="Application">Partnership</option>
-                        <option value="Minecrtaft Server">General</option>
-                        <option value="Other">General</option>    
-                        </select>
-                    </li>
-                    <li>
-                        <label>Your Message <span class="required">*</span></label>
-                        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
-                    </li>
-                    <li>
-                        <input type="submit" value="Submit" />
-                    </li>
-                </ul>
-</form>
+            <div class="form-style-2">
+                <div class="form-style-2-heading">Provide your information</div>
+                    <form action="" method="post">
+                        <label for="field1"><span>Name/Buisness Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+                        <label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+                        <label for="field4"><span>Regarding</span><select name="field4" class="select-field">
+                            <option value="website">Website</option>
+                            <option value="application">Applicatio </option>
+                            <option value="minecraft Server">Minecraft Server</option>
+                            <option value="other">Other</option>
+                        </select></label>
+                        <label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+
+                        <label><span>&nbsp;</span><input type="submit" value="Submit" /></label>
+                    </form>
+                </div>
+            </div>
         </div>
         
         <!--Third section of the main content-->
